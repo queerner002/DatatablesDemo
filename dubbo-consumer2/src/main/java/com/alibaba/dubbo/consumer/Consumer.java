@@ -15,6 +15,6 @@ public class Consumer {
         System.out.println("consumer2 start");
         DemoService demoService = context.getBean(DemoService.class);
         System.out.println("consumer2");
-        System.out.println(demoService.getPermissions(1L));
+        System.out.println(demoService.getPermissions(8L));
     }
 }
